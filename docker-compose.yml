@@ -1,0 +1,7 @@
+version: '3'
+services:
+  node:
+    build: ./
+    image: yukin01/node:1.0-test
+    container_name: node-test
+    tty: true
